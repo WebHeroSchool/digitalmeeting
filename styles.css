@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: #E3EAFE;
+  }
+
+  .test {
+    width: 1440px;
+    height: 839px;
+    display: inline-block;
+    background: url(img/background.png) no-repeat;
+  }
+
+  .header {
+    padding: 70px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-menu {
+    font: 900 18px/21px "Roboto", arial, sans-serif;
+  }
+
+  .header-menu__link {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 60px;
+    color: #fff;
+  }
+
+  .main {
+    padding: 61px 130px 0 65%;
+    text-align: right;
+    color: #fff;
+  }
+
+  .main__title {
+    font: 40px/47px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 11px;
+  }
+
+  .main__subtitle {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    padding-left: 10%;
+    margin-bottom: 55px;
+  }
+
+  .main__button {
+    text-decoration: none;
+    color: #fff;
+    background: #E0036F;
+    padding: 16px 66px;
+    font: 20px/23px "Roboto", arial, sans-serif;
+  }
+
+  .tickets__title {
+    margin: 0;
+    padding: 55px 409px 40px;
+    font: 30px/35px "Roboto", arial, sans-serif;
+    text-align: center;
+  }
+
+  .tickets__cost {
+    margin: 0;
+    font: 900 30px/35px "Roboto", arial, sans-serif;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+
+  .tickets__buy {
+    display: inline-block;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    background: #FFDA45;
+    color: #000;
+    text-decoration: none;
+    padding: 16px 66px;
+    margin-bottom: 23px;
+  }
+
+  .tickets__book {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    text-decoration: none;
+    color: #585858;
+    border-bottom: 3px solid #FFDA45;
+    padding-bottom: 10px;
+  }
+
+  .app-form {
+    background-color: #405DBB;
+    margin-top: 68px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 90px;
+  }
+
+  .app-form__title {
+    margin: 0;
+    padding-top: 118px;
+    font: 30px/35px "Roboto", arial, sans-serif;
+    color: #fff;
+  }
+
+  .app-form__subtitle {
+    margin: 0;
+    padding-top: 20px;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    color: #fff;
+  }
+
+  .app-form__image {
+  }
+
+  .app-form__button {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    background: #FFDA45;
+    padding: 15px 29px;
+  }
+
+  .speakers__title {
+    font: 30px/35px "Roboto", arial, sans-serif;
+    color: #585858;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 70px;
+  }
+}

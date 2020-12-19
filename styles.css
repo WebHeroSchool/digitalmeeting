@@ -1,7 +1,177 @@
 body {
   margin: 0;
+  background: #E3EAFE;
 }
 
+@media (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+
+  .mobile {
+    color: #fff;
+    position: absolute;
+    top: 27px;
+    right: 42px;
+    cursor: pointer;
+    width: 8px;
+  }
+
+  .mobile span {
+    display: block;
+    width: 23px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0 0;
+  }
+
+  .test {
+    background: url(img/bckgmobile.jpg) no-repeat;
+    width: 320px;
+    height: 334px;
+    object-fit: cover;
+  }
+
+  .main {
+    color: #E1E6E9;
+    text-align: center;
+  }
+
+  .main__title {
+    padding-top: 63px;
+    font: 30px/35px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .main__subtitle {
+    font: 15px/18px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 123px;
+  }
+
+  .main__button {
+    text-decoration: none;
+    background: #E0036F;
+    color: #fff;
+    padding: 14px 104px;
+    font: 15px/18px "Roboto", arial, sans-serif;
+  }
+
+  .tickets {
+    margin-top: 22px;
+    text-align: center;
+    height: 295px;
+  }
+
+  .tickets__title {
+    margin: 0;
+    color: #585858;
+    font: 21px/22px "Roboto", arial, sans-serif;
+    padding: 22px 34px 10px 34px;
+  }
+
+  .tickets__cost {
+    color: #263B83;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .tickets__buy {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    background: #FFDA45;
+    color: #000;
+    text-decoration: none;
+    padding: 11px 96px;
+    margin-bottom: 50px;
+  }
+
+  .tickets__book {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    color: #585858;
+    border-bottom: 3px solid #FFDA45;
+    padding-bottom: 13px;
+    text-decoration: none;
+  }
+
+  .app-form {
+    background-color: #405DBB;
+    margin-top: 36px;
+    margin-bottom: 34px;
+    text-align: center;
+    height: 442px;
+  }
+
+  .app-form__title {
+    margin: 0;
+    padding-top: 37px;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+
+  .app-form__subtitle {
+    font: 10px/12px "Roboto", arial, sans-serif;
+    color: #fff;
+    padding-bottom: 21px;
+    margin: 0;
+  }
+
+  .app-form__image {
+      width: 260px;
+      height: 222px;
+      object-fit: cover;
+      margin-bottom: 39px;
+  }
+
+  .app-form__button {
+    font: 20px/23px "Roboto", arial,sans-serif;
+    color: #000;
+    text-decoration: none;
+    background: #FFDA45;
+    padding: 11px 60px;
+  }
+
+  .speakers {
+    text-align: center;
+    margin: 0;
+  }
+
+  .speakers__title {
+    margin: 0;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    color: #585858;
+    padding: 33px 35px;
+  }
+
+  .speakers__img {
+    padding: 20px;
+  }
+
+  .img_hidden {
+    display: none;
+  }
+
+  .speakers__scroll {
+    margin: 7px 0 44px;
+  }
+
+  .footer {
+    background: #0E1E71;
+    padding: 16px 30px 55px;
+  }
+
+  .footer__location {
+    width: 78px;
+    height: 9px;
+  }
+
+  .footer__contacts {
+    width: 121px;
+    height: 22px;
+    float: right;
+  }
+}
 
 @media (min-width: 1440px) {
   .test {

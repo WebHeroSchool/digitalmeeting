@@ -3,6 +3,10 @@ body {
   background: #E3EAFE;
 }
 
+.tickets__buy {
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.25);
+}
+
 @media (max-width: 768px) {
   .header-menu {
     display: none;
@@ -11,21 +15,21 @@ body {
   .mobile {
     color: #fff;
     position: absolute;
-    top: 27px;
-    right: 42px;
+    top: 24px;
+    right: 47px;
     cursor: pointer;
-    width: 8px;
+    width: 5px;
   }
 
   .mobile span {
     display: block;
     width: 23px;
-    height: 3px;
+    height: 2px;
     background-color: #fff;
     margin: 6px 0 0;
   }
 
-  .test {
+  .header-main {
     background: url(img/bckgmobile.jpg) no-repeat;
     width: 320px;
     height: 334px;
@@ -54,26 +58,27 @@ body {
     text-decoration: none;
     background: #E0036F;
     color: #fff;
-    padding: 14px 104px;
+    padding: 14px 105px 13px;
     font: 15px/18px "Roboto", arial, sans-serif;
   }
 
   .tickets {
-    margin-top: 22px;
+    margin-top: 23px;
     text-align: center;
-    height: 295px;
+    height: 272px;
   }
 
   .tickets__title {
     margin: 0;
     color: #585858;
-    font: 21px/22px "Roboto", arial, sans-serif;
-    padding: 22px 34px 10px 34px;
+    font: 500 21px/22px "Roboto", arial, sans-serif;
+    padding: 0 30px 10px 29px;
   }
 
   .tickets__cost {
+    margin: 0;
     color: #263B83;
-    font: 20px/23px "Roboto", arial, sans-serif;
+    font: 20px/24px "Roboto", arial, sans-serif;
     margin-bottom: 30px;
   }
 
@@ -82,21 +87,23 @@ body {
     background: #FFDA45;
     color: #000;
     text-decoration: none;
-    padding: 11px 96px;
-    margin-bottom: 50px;
+    padding: 11px 98px 9px 95px;
+  }
+
+  .booking {
+    padding-top: 39px;
   }
 
   .tickets__book {
     font: 20px/23px "Roboto", arial, sans-serif;
     color: #585858;
     border-bottom: 3px solid #FFDA45;
-    padding-bottom: 13px;
+    padding-bottom: 9px;
     text-decoration: none;
   }
 
   .app-form {
     background-color: #405DBB;
-    margin-top: 36px;
     margin-bottom: 34px;
     text-align: center;
     height: 442px;
@@ -121,7 +128,7 @@ body {
       width: 260px;
       height: 222px;
       object-fit: cover;
-      margin-bottom: 39px;
+      margin-bottom: 36px;
   }
 
   .app-form__button {
@@ -129,7 +136,7 @@ body {
     color: #000;
     text-decoration: none;
     background: #FFDA45;
-    padding: 11px 60px;
+    padding: 11px 60px 10px;
   }
 
   .speakers {
@@ -139,13 +146,16 @@ body {
 
   .speakers__title {
     margin: 0;
-    font: 20px/23px "Roboto", arial, sans-serif;
+    font: 20px/22px "Roboto", arial, sans-serif;
     color: #585858;
-    padding: 33px 35px;
+    padding: 0 51px;
   }
 
   .speakers__img {
-    padding: 20px;
+    padding: 31px 20px 24px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
   }
 
   .img_hidden {
@@ -153,30 +163,32 @@ body {
   }
 
   .speakers__scroll {
-    margin: 7px 0 44px;
+    margin-bottom: 39px;
   }
 
   .footer {
     background: #0E1E71;
-    padding: 16px 30px 55px;
+    padding: 0 30px 55px 17px;
   }
 
   .footer__location {
-    width: 78px;
+    width: 100px;
     height: 9px;
-  }
+    padding-top: 15px;
+    }
 
   .footer__contacts {
     width: 121px;
     height: 22px;
     float: right;
+    padding-top: 15px;
   }
 }
 
 @media (min-width: 1440px) {
-  .test {
+  .header-main {
     width: 1440px;
-    height: 839px;
+    height: 838px;
     display: inline-block;
     background: url(img/background.png) no-repeat;
   }
@@ -222,22 +234,22 @@ body {
     text-decoration: none;
     color: #fff;
     background: #E0036F;
-    padding: 16px 66px;
+    padding: 15px 66px 16px 67px;
     font: 20px/23px "Roboto", arial, sans-serif;
   }
 
   .tickets__title {
     margin: 0;
-    padding: 55px 409px 40px;
+    padding: 55px 409px 47px;
     font: 30px/35px "Roboto", arial, sans-serif;
     text-align: center;
   }
 
   .tickets__cost {
     margin: 0;
-    font: 900 30px/35px "Roboto", arial, sans-serif;
+    font: 900 31px/21px "Roboto", arial, sans-serif;
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 41px;
   }
 
   .tickets__buy {
@@ -247,7 +259,7 @@ body {
     color: #000;
     text-decoration: none;
     padding: 16px 66px;
-    margin-bottom: 23px;
+    margin-bottom: 18px;
   }
 
   .tickets__book {
@@ -261,15 +273,15 @@ body {
   .app-form {
     background-color: #405DBB;
     margin-top: 68px;
-    margin-bottom: 90px;
+    margin-bottom: 89px;
+    height: 327px;
   }
 
   .app-form__title {
-    margin: 0;
     padding-top: 118px;
     font: 30px/35px "Roboto", arial, sans-serif;
     color: #fff;
-    margin-left: 130px;
+    margin: 0 130px;
     /*display: flex;
     flex-direction: column;*/
   }
@@ -287,18 +299,20 @@ body {
 
   .app-form__image {
   /*  margin: 0 30% 0 45%;*/
-  margin-top: -150px;
+  margin: -153px 43px 0;
+
 
   }
 
   .app-form__button {
+    margin-top: -17px;
     font: 20px/23px "Roboto", arial, sans-serif;
     text-decoration: none;
     color: #000;
     background: #FFDA45;
-    padding: 15px 29px;
+    padding: 15px 28px 16px 31px;
     float: right;
-    margin-right: 130px;
+    margin-right: 131px;
 
   }
 
@@ -310,12 +324,12 @@ body {
     font: 30px/35px "Roboto", arial, sans-serif;
     color: #585858;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 52px;
+    padding: 0 490px;
   }
 
   .speakers__img {
-    padding: 25px 9px;
-    margin-bottom: 50px;
+    padding: 26px 8px 35px;
   }
 
   .speakers__scroll {
@@ -323,8 +337,9 @@ body {
   }
 
   .footer {
+    margin-top: 52px;
     background-color: #0E1E71;
-    padding: 49px 130px 152px;
+    padding: 47px 130px 152px;
   }
 
   .footer__contacts {

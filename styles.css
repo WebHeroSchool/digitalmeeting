@@ -31,7 +31,7 @@ body {
   transition: 3s;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 999px ) {
   .header-menu {
     display: none;
   }
@@ -55,9 +55,9 @@ body {
 
   .header-main {
     background: url(img/bckgmobile.jpg) no-repeat;
-    width: 320px;
     height: 334px;
     object-fit: cover;
+    background-size: 100%;
   }
 
   .main {
@@ -214,12 +214,206 @@ body {
   }
 }
 
+@media (min-width: 394px) {
+  .app-form__image {
+    margin: 0 15% 36px;
+  }
+}
+
+@media (min-width: 560px) {
+  .app-form__image {
+    margin: 0 25% 36px;
+  }
+}
+
+@media (min-width: 780px) {
+  .app-form__image {
+    margin: 0 31% 36px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+  .header-main {
+    display: inline-block;
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 838px;
+  }
+
+  .header {
+    padding: 70px 45px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-menu {
+    font: 900 18px/21px "Roboto", arial, sans-serif;
+  }
+
+  .header-menu__link {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 60px;
+    color: #fff;
+    transition: opacity 0.5;
+  }
+
+  .header-menu__link:hover {
+    opacity: 0.5;
+  }
+
+  .main {
+    padding: 61px 105px 0 50%;
+    text-align: right;
+    color: #fff;
+  }
+
+  .main__title {
+    font: 40px/47px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 11px;
+  }
+
+  .main__subtitle {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    margin-top: 0;
+    padding-left: 10%;
+    margin-bottom: 55px;
+  }
+
+  .main__button {
+    text-decoration: none;
+    color: #fff;
+    background: #E0036F;
+    padding: 15px 66px 16px 67px;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    cursor: pointer;
+  }
+
+  .tickets__title {
+    margin: 0;
+    padding: 55px 20% 47px;
+    font: 30px/35px "Roboto", arial, sans-serif;
+    text-align: center;
+  }
+
+  .tickets__cost {
+    margin: 0;
+    font: 900 31px/21px "Roboto", arial, sans-serif;
+    text-align: center;
+    margin-bottom: 41px;
+  }
+
+  .tickets__buy {
+    display: inline-block;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    background: #FFDA45;
+    color: #000;
+    text-decoration: none;
+    padding: 16px 66px;
+    margin-bottom: 18px;
+    cursor: pointer;
+  }
+
+  .tickets__book {
+    font: 20px/23px "Roboto", arial, sans-serif;
+    text-decoration: none;
+    color: #585858;
+    border-bottom: 3px solid #FFDA45;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .app-form {
+    background-color: #405DBB;
+    margin-top: 68px;
+    margin-bottom: 89px;
+    height: 327px;
+    text-align: left;
+  }
+
+  .app-form__title {
+    padding-top: 98px;
+    font: 30px/35px "Roboto", arial, sans-serif;
+    color: #fff;
+    margin: 0 3%;
+  }
+
+  .app-form__subtitle {
+    margin: 0;
+    padding-top: 20px;
+    font: 19px/22px "Roboto", arial, sans-serif;
+    color: #fff;
+    margin: 0 0 0 3%;
+    float: left;
+    width: 30%;
+    }
+
+  .app-form__image {
+    margin-bottom: 36px;
+    margin: -133px 43px 0;
+    height: 327px;
+    width: 35%;
+    object-fit: cover;
+  }
+
+  .app-form__button {
+    margin-top: -17px;
+    font: 20px/23px "Roboto", arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    background: #FFDA45;
+    padding: 14px 27px 15px 30px;
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+  }
+
+  .speakers {
+    text-align: center;
+  }
+
+  .speakers__title {
+    font: 30px/35px "Roboto", arial, sans-serif;
+    color: #585858;
+    margin: 0;
+    margin-bottom: 52px;
+    padding: 0 25%;
+  }
+
+  .speakers__img {
+    padding: 18px 5px 25px;
+    width: 230px;
+  }
+
+  .speakers__scroll {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 52px;
+    background-color: #0E1E71;
+    padding: 47px 130px 152px;
+  }
+
+  .footer__location {
+    cursor: pointer;
+  }
+
+  .footer__contacts {
+    float: right;
+  }
+}
+
 @media (min-width: 1440px) {
   .header-main {
-    width: 1440px;
+    width: 100%;
     height: 838px;
     display: inline-block;
     background: url(img/background.png) no-repeat;
+    background-size: 100%;
   }
 
   .header {
@@ -378,5 +572,64 @@ body {
 
   .footer__contacts {
     float: right;
+  }
+}
+
+@media (min-width: 1700px) {
+  .header-menu {
+    font-size: 23px;
+  }
+
+  .main__title {
+    font-size: 47px;
+  }
+
+  .main__subtitle {
+    font-size: 24px;
+  }
+
+  .main__button {
+    font-size: 27px;
+  }
+
+  .tickets__title {
+    font-size: 37px;
+  }
+
+  .tickets__cost {
+    font-size: 38px;
+  }
+
+  .tickets__buy {
+    font-size: 27px;
+  }
+
+  .tickets__book {
+    font-size: 27px;
+  }
+
+  .app-form__title {
+    font-size: 35px;
+  }
+
+  .app-form__subtitle {
+    font-size: 22px;
+  }
+
+  .app-form__image {
+    margin: -153px 10%;
+  }
+
+  .app-form__button {
+    font-size: 27px;
+  }
+
+  .speakers__title {
+    font-size: 37px;
+  }
+
+  .speakers__img {
+    padding: 29px 10px 37px;
+    width: 320px;
   }
 }
